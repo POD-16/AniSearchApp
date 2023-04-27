@@ -20,8 +20,8 @@ class AnimeAdapter(private val animeList: List<Anime>) : RecyclerView.Adapter<An
     // Bind data from the animeList to the views in AnimeViewHolder
     override fun onBindViewHolder(holder: AnimeViewHolder, position: Int) {
         val anime = animeList[position]
-        holder.animeTitle.text = anime.title
-        Glide.with(holder.itemView.context).load(anime.imageUrl).into(holder.animeImage)
+        holder.animeTitle.text = anime.animeTitle
+        Glide.with(holder.itemView.context).load(anime.imageURL).fitCenter().into(holder.animeImage)
     }
 
     // Return number of items in the animeList
