@@ -2,10 +2,10 @@
 # AND101 Milestone 2 - **AniSearch**
 
 Submitted by:
-- ****
-- ****
-- ****
-- ****
+- **Andy Munoz**
+- **Sybel Francois**
+- **Pedro Rangel**
+- **Prabhdeep Brar**
 
 Time spent: **X** hours spent in total
 
