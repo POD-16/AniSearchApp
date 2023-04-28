@@ -1,3 +1,4 @@
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -7,6 +8,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.example.anisearch.R
 import com.example.anisearch.Anime
+import com.example.anisearch.SecondPage
 
 // Define AnimeAdapter class to extend RecyclerView.Adapter
 class AnimeAdapter(private val animeList: List<Anime>) : RecyclerView.Adapter<AnimeAdapter.AnimeViewHolder>() {
@@ -22,6 +24,17 @@ class AnimeAdapter(private val animeList: List<Anime>) : RecyclerView.Adapter<An
         val anime = animeList[position]
         holder.animeTitle.text = anime.animeTitle
         Glide.with(holder.itemView.context).load(anime.imageURL).fitCenter().into(holder.animeImage)
+        //On click listen will get the Anime data to pass to the Second Page class and start the Activity
+        holder.animeImage.setOnClickListener {
+            val intent = Intent(holder.itemView.context, SecondPage::class.java)
+            intent.putExtra("animeTitle", anime.animeTitle)
+            intent.putExtra("imageURL", anime.imageURL)
+            intent.putExtra("animeRank", anime.animeRank.toString())
+            intent.putExtra("animeStatus", anime.animeStatus)
+            intent.putExtra("animeDescription", anime.animeDescription)
+            holder.itemView.context.startActivity(intent)
+        }
+
     }
 
     // Return number of items in the animeList

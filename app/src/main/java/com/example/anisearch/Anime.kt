@@ -4,5 +4,9 @@ package com.example.anisearch
 class Anime(
     var imageURL: String,
     var animeTitle: String,
+    var animeRank: Int?,
+    var animeStatus: String,
+    var animeDescription: String
 
 )
+
