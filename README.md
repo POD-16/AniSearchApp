@@ -32,7 +32,6 @@ The following REQUIRED files are included:
 
 - [X] Our 🎥 Demo Video
   - [X] We have also added the Demo Video Link to the Group Info Form on the course portal.
-  - Link : https://youtu.be/lpygGmIEW8I
 
 The following EXTRA features are implemented:
 
@@ -42,9 +41,9 @@ The following EXTRA features are implemented:
 
 Here's a video that demos all of the app's implemented features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Demo' width='' alt='Video Demo' />
+<img src='https://youtu.be/lpygGmIEW8I' title='Video Demo' width='' alt='Video Demo' />
 
-VIDEO created with **your chosen video tool**
+VIDEO created with OBAS
 
 ## Notes
 
