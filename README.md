@@ -41,7 +41,7 @@ The following EXTRA features are implemented:
 
 Here's a video that demos all of the app's implemented features:
 
-<img src='https://youtu.be/lpygGmIEW8I' title='Video Demo' width='' alt='Video Demo' />
+-Link: https://youtu.be/lpygGmIEW8I
 
 VIDEO created with OBS
 
