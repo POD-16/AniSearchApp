@@ -27,8 +27,8 @@ The following REQUIRED files are included:
 - [X] Updated 📄 `project_spec.md`, which contains:
   - [X] App Overview (Milestone 1)
   - [X] App Spec (Milestone 1)
-  - [ ] Checked off 2+ completed features
-  - [ ] 2+ GIFs of build progress
+  - [X] Checked off 2+ completed features
+  - [X] 2+ GIFs of build progress
 
 - [ ] Our 🎥 Demo Video
   - [ ] We have also added the Demo Video Link to the Group Info Form on the course portal.
