@@ -78,6 +78,12 @@ Stretch Features:
 
 ### [BONUS] Interactive Prototype
 
+### 3. Build Notes
+- Build Process (2+ GIFs)
+
+<img src="https://imgur.com/nsStE7X.gif" width=600>
+<img src="https://imgur.com/txSpG37.gif" width=600>
+
 ## License
 
 Copyright 2023 Andy Munoz, Pedro Rangel, Prabhdeep Brar, Sybel Francois
