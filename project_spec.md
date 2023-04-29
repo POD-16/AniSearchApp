@@ -30,8 +30,8 @@
 
 Required Features:
 
-- **Search functionality to find anime**
-- **Detailed anime information, including synopsis, genre tags, episode count, etc**
+- [X] **Search functionality to find anime**
+- [X] **Detailed anime information, including synopsis, rank, status, etc**
 
 Stretch Features:
 
