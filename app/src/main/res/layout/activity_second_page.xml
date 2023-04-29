@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:textAppearance="@style/TextAppearance.Details"
     tools:context=".SecondPage">
 
     <!-- Scale the image while maintaining its aspect ratio, cropping it if necessary-->
@@ -28,8 +29,7 @@
         android:layout_marginTop="4dp"
         android:text="Anime Rank"
         android:padding="4dp"
-        android:textColor="@android:color/black"
-        android:textSize="14sp"
+        android:textAppearance="@style/TextAppearance.Details"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@id/anime_pic" />
 
@@ -40,8 +40,7 @@
         android:layout_marginTop="4dp"
         android:padding="4dp"
         android:text="Anime Titles"
-        android:textColor="@android:color/black"
-        android:textSize="14sp"
+        android:textAppearance="@style/TextAppearance.Details"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/anime_rank"
         app:layout_constraintTop_toBottomOf="@id/anime_pic" />
@@ -55,8 +54,7 @@
         android:gravity="center_horizontal"
         android:text="Anime Status"
         android:padding="4dp"
-        android:textColor="@android:color/black"
-        android:textSize="14sp"
+        android:textAppearance="@style/TextAppearance.Details"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/anime_titles" />
@@ -77,8 +75,7 @@
             android:layout_height="wrap_content"
             android:text="Anime Description"
             android:padding="4dp"
-            android:textColor="@android:color/black"
-            android:textSize="14sp" />
+            android:textAppearance="@style/TextAppearance.Details" />
 
     </ScrollView>
 
