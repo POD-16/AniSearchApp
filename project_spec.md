@@ -30,8 +30,8 @@
 
 Required Features:
 
-- **Search functionality to find anime**
-- **Detailed anime information, including synopsis, genre tags, episode count, etc**
+- [X] **Search functionality to find anime**
+- [X] **Detailed anime information, including synopsis, rank, status, etc**
 
 Stretch Features:
 
@@ -77,6 +77,12 @@ Stretch Features:
 <img src="https://imgur.com/gCTgUkh.jpeg" width=600>
 
 ### [BONUS] Interactive Prototype
+
+### 3. Build Notes
+- Build Process (2+ GIFs)
+
+<img src="https://imgur.com/nsStE7X.gif" width=600>
+<img src="https://imgur.com/txSpG37.gif" width=600>
 
 ## License
 
