@@ -43,21 +43,11 @@ Here's a video that demos all of the app's implemented features:
 
 <img src='https://youtu.be/lpygGmIEW8I' title='Video Demo' width='' alt='Video Demo' />
 
-VIDEO created with OBAS
+VIDEO created with OBS
 
 ## Notes
 
 Here's a place for any other notes on this milestone!
-
-
-
-
-
-
-
-
-
-
 
 
 # AND101 Milestone 1 - **AniSearch**
