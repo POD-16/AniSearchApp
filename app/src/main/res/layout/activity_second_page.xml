@@ -23,37 +23,32 @@
 
     <TextView
         android:id="@+id/anime_rank"
-        android:layout_width="65dp"
+        android:layout_width="match_parent"
         android:layout_height="29dp"
-        android:layout_marginLeft="64dp"
-        android:layout_marginTop="4dp"
         android:text="Anime Rank"
-        android:padding="4dp"
+        android:gravity="center"
         android:textAppearance="@style/TextAppearance.Details"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@id/anime_pic" />
 
     <TextView
         android:id="@+id/anime_titles"
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="29dp"
-        android:layout_marginTop="4dp"
-        android:padding="4dp"
         android:text="Anime Titles"
+        android:gravity="center"
         android:textAppearance="@style/TextAppearance.Details"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/anime_rank"
-        app:layout_constraintTop_toBottomOf="@id/anime_pic" />
+        app:layout_constraintStart_toStartOf="@id/anime_rank"
+        app:layout_constraintEnd_toEndOf="@id/anime_rank"
+        app:layout_constraintTop_toBottomOf="@id/anime_rank" />
 
 
     <TextView
         android:id="@+id/anime_status"
         android:layout_width="143dp"
         android:layout_height="31dp"
-        android:layout_marginTop="4dp"
         android:gravity="center_horizontal"
         android:text="Anime Status"
-        android:padding="4dp"
         android:textAppearance="@style/TextAppearance.Details"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -62,19 +57,20 @@
     <ScrollView
         android:layout_width="0dp"
         android:layout_height="0dp"
-        app:layout_constraintTop_toBottomOf="@id/anime_status"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:layout_constraintHorizontal_bias="0.0">
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/anime_status"
+        app:layout_constraintVertical_bias="0.0">
 
         <TextView
             android:id="@+id/anime_desc"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Anime Description"
             android:padding="4dp"
+            android:text="Anime Description"
+            android:gravity="center"
             android:textAppearance="@style/TextAppearance.Details" />
 
     </ScrollView>

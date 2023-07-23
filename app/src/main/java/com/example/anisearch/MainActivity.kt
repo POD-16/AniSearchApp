@@ -98,7 +98,7 @@ class MainActivity : AppCompatActivity() {
                     val imagesObject = animeObject?.getJSONObject("images")
                     anime.imageURL = imagesObject?.getJSONObject("jpg")?.getString("image_url") ?: ""
                     anime.animeTitle = animeObject?.getString("title") ?: ""
-//                    anime.animeRank = animeObject?.getInt("rank") ?: 0
+                    anime.animeRank = animeObject?.optInt("rank", 0)
                     anime.animeStatus = animeObject?.getString("status") ?: ""
                     anime.animeDescription = animeObject?.getString("synopsis") ?: ""
                     //Add each Anime to the anime list

@@ -2,6 +2,7 @@ package com.example.anisearch
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.widget.ImageView
 import android.widget.TextView
 import com.bumptech.glide.Glide
@@ -27,13 +28,14 @@ class SecondPage : AppCompatActivity() {
         val imageURL = intent.getStringExtra("imageURL")
         val title = intent.getStringExtra("animeTitle")
         val rank = intent.getStringExtra("animeRank")
+        Log.d("debug", rank.toString())
         val status = intent.getStringExtra("animeStatus")
         val description = intent.getStringExtra("animeDescription")
         //Load image
         Glide.with(this).load(imageURL).fitCenter().into(animePic)
         //Assign data to the proper Text Views in the second page activity
         animeTitles.text = title
-        animeRank.text = "Rank: $rank"
+        animeRank.text = if(rank!!.toInt() == 0) "Rank: N/A" else "Rank: $rank"
         animeStatus.text = status
         animeDesc.text = description
     }
