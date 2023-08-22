@@ -33,9 +33,6 @@ The following REQUIRED files are included:
 - [X] Our 🎥 Demo Video
   - [X] We have also added the Demo Video Link to the Group Info Form on the course portal.
 
-The following EXTRA features are implemented:
-
-- [ ] List anything else that you added to improve your submission!
 
 ## 🎥 Demo Video
 
@@ -44,10 +41,6 @@ Here's a video that demos all of the app's implemented features:
 -Link: https://youtu.be/lpygGmIEW8I
 
 VIDEO created with OBS
-
-## Notes
-
-Here's a place for any other notes on this milestone!
 
 
 # AND101 Milestone 1 - **AniSearch**
@@ -89,12 +82,5 @@ The following REQUIRED files are included:
 The following BONUS features are implemented:
 
 - [X] Added digital wireframe/mockup image(s)
-- [ ] Added a GIF of an interactive prototype
 
-The following EXTRA features are implemented:
 
-- [ ] List anything else that you added to improve your submission!
-
-## Notes
-
-Here's a place for any other notes on this milestone!
